@@ -5,6 +5,7 @@ import LoginView from "./views/loginView/loginView";
 import HomeView from "./views/homeView/homeView";
 import ChannelsView from "./views/channels/channelsView";
 import RolesView from "./views/roles/rolesView";
+import UserRolesView from "./views/userRoles/userRolesView";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/home" element={<HomeView />} />
         <Route path="/channels" element={<ChannelsView />} />
         <Route path="/roles" element={<RolesView />} />
+        <Route path="/user-roles" element={<UserRolesView />} />
       </Routes>
     </Router>
   );
